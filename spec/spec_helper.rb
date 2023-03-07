@@ -6,3 +6,4 @@ ENV["WHIPLASH_API_URL"] = "https://qa.getwhiplash.com/"
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'whiplash/app'
 require "pry"
+{
